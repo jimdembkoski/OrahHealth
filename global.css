@@ -124,26 +124,10 @@ html, body {
   background-image: none;
 }
 
-#navigation li a span {
-    width: 100%;
-    height: 100%;
-    background: url(../assets/spacer.png) repeat;
-}
-
 #navigation li a {
     background-image: url(../assets/nav-bg.png);
     background-repeat: no-repeat;
     background-size: 800px 28px;
-}
-
-#navigation li a.our-work {
-    background-position: 10px 51px;
-}
-#navigation li a.about-us {
-    background-position: -190px 51px;
-}
-#navigation li a.contact {
-    background-position: -390px 51px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
