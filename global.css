@@ -144,7 +144,7 @@ html, body {
 }
 
 div.content-index {
-    background: url(../assets/index-bg.png) no-repeat top left;
+    /* background: url(../assets/index-bg.png) no-repeat top left; */
     min-height: 600px;
 }
 
