@@ -127,15 +127,14 @@ html, body {
 }
 
 #navigation li a {
-    display: block;
-    width: inherit;
-    margin: 0 10px 0 0;
-    padding: 21px 10px 17px 10px;
-    font-family: "DIN-Medium";
-    font-size: 28px;
-    color: #999;
-    text-decoration: none;
-    text-transform: uppercase;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 20px 15px;
+  font-family: "DIN-Medium", sans-serif;
+  font-size: 20px;
+  color: #444;
+  text-decoration: none;
+  text-transform: none;
 }
 
 #navigation li a span {
