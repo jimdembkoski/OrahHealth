@@ -2,18 +2,26 @@
 
 /* DIN Black */
 @font-face {
-    font-family: 'DIN-Black';
-    src: url('typeface/ff_din_black.eot');
-    src: url('typeface/ff_din_black.eot?#iefix') format('embedded-opentype'), url('typeface/ff_din_black.woff') format('woff'), url('typeface/ff_din_black.ttf') format('truetype'), url('typeface/ff_din_black.svg#ff_din_black') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'DIN-Black';
+  src: url('ff_din_black.eot');
+  src: url('ff_din_black.eot?#iefix') format('embedded-opentype'),
+       url('ff_din_black.woff') format('woff'),
+       url('ff_din_black.ttf') format('truetype'),
+       url('ff_din_black.svg#ff_din_black') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 /* DIN Medium */
 @font-face {
-    font-family: 'DIN-Medium';
-    src: url('typeface/ff_din_medium.eot');
-    src: url('typeface/ff_din_medium.eot?#iefix') format('embedded-opentype'), url('typeface/ff_din_medium.woff') format('woff'), url('typeface/ff_din_medium.ttf') format('truetype'), url('typeface/ff_din_medium.svg#ff_din_medium') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'DIN-Medium';
+  src: url('ff_din_medium.eot');
+  src: url('ff_din_medium.eot?#iefix') format('embedded-opentype'),
+       url('ff_din_medium.woff') format('woff'),
+       url('ff_din_medium.ttf') format('truetype'),
+       url('ff_din_medium.svg#ff_din_medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
