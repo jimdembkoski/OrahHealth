@@ -12,14 +12,14 @@ $.address.crawlable(true).state("/").change(function(event) {
 			function() {
 				var urlString = event.value;
 				$("#content").css({"display": "block"}).animate({"top": "0", "opacity": "1"}, 300);
-				document.title = "Louis Kam / " + $(".content h2").text();
-				if (event.value == "index") {$("h2.heading-index").airportintro(["You have arrived at the Main Terminal.", "Please observe placards to proceed.", "We wish you a safe and pleasant voyage."]);}
+				document.title = "Orah Health / " + $(".content h2").text();
+				if (event.value == "index") {$("h2.heading-index").orahintro(["We are building something special here, but not ready for prime-time.", "Watch this space in the near future.", "We are building the ultimate compass to navigate the healthcare storm."]);}
 				if (event.value == "/design") {
 					$(".project-shelf a").click(function() {
 						$.address.value($(this).attr('href'));
 						return false;
 					});
-					$("h3.heading-design").airportintro(["Join us in our duty-free plaza before take-off.", "Make your selection and start shopping."]);
+					$("h3.heading-design").orahintro(["Don't despair.", "Help is on the way!"]);
 					itemAnimations();
 					// Isotope Handler
 					$(function(){
@@ -281,15 +281,21 @@ function initMusic() {
 
 // Initialize Page
 $(document).ready(function(){
-	$(".content").height($("#header").height() - 32);
-	// Logo Hover
-	$("#logo a span").on("mouseenter", function() {$(this).stop().animate({opacity: 1}, 200);});
-	$("#logo a span").on("mouseleave", function() {$(this).stop().animate({opacity: 0}, 200);});
-	
-	// Navigation Hover
-	$("#navigation li a").each(function(i) {$(this).css("width", $(this).width()+"px").airport([$(this).attr("class")]);});
-	
-	$("#navigation li a").on("mouseenter", function() {$(this).stop().animate({backgroundColor: jQuery.Color("#7d7d7d"), color: jQuery.Color("#ffffff")}, 200 );});
-	$("#navigation li a").on("mouseleave", function() {$(this).stop().animate({backgroundColor: jQuery.Color("transparent"), color: jQuery.Color("#999999")}, 200 ).airport([$(this).attr("class")]);});
-	
+  $(".content").height($("#header").height() - 32);
+  // Logo Hover
+  $("#logo a span").on("mouseenter", function() {$(this).stop().animate({opacity: 1}, 200);});
+  $("#logo a span").on("mouseleave", function() {$(this).stop().animate({opacity: 0}, 200);});
+
+  // Navigation Hover (disabled text animation)
+  $("#navigation li a").each(function(i) {
+    $(this).css("width", $(this).width()+"px");
+  });
+
+  $("#navigation li a").on("mouseenter", function() {
+    $(this).stop().animate({backgroundColor: jQuery.Color("#7d7d7d"), color: jQuery.Color("#ffffff")}, 200 );
+  });
+
+  $("#navigation li a").on("mouseleave", function() {
+    $(this).stop().animate({backgroundColor: jQuery.Color("transparent"), color: jQuery.Color("#999999")}, 200 );
+  });
 });
