@@ -125,26 +125,6 @@ html, body {
   background-image: none;
 }
 
-#navigation li a {
-    background-image: url(../assets/nav-bg.png);
-    background-repeat: no-repeat;
-    background-size: 800px 28px;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
-    #navigation li a {
-        background-image: url(../assets/nav-bg@2x.png);
-    }
-
-    #logo a {
-        background-image: url(../assets/logo@2x.png);
-    }
-
-    #logo a span {
-        background-image: url(../assets/logo@2x.png);
-    }
-}
-
 /* Content */
 #content {
     display: block;
