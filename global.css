@@ -113,8 +113,6 @@ html, body {
 
 #navigation li a {
   display: inline-block;
-  white-space: nowrap;
-  hyphens: none;
   padding: 20px 20px;
   font-family: "DIN-Medium", sans-serif;
   font-size: 18px;
@@ -123,7 +121,14 @@ html, body {
   text-transform: none;
   background: none;
   background-image: none;
+
+  /* Fix word splitting */
+  white-space: nowrap !important;
+  hyphens: none !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
 }
+
 
 /* Content */
 #content {
