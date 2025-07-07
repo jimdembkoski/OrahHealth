@@ -114,12 +114,14 @@ html, body {
 #navigation li a {
   display: inline-block;
   white-space: nowrap;
-  padding: 20px 15px;
+  padding: 20px 20px;
   font-family: "DIN-Medium", sans-serif;
-  font-size: 20px;
-  color: #444;
+  font-size: 18px;
+  color: #333;
   text-decoration: none;
   text-transform: none;
+  background: none;
+  background-image: none;
 }
 
 #navigation li a span {
