@@ -87,8 +87,8 @@ html, body {
 
 #logo {
     float: left;
-    display: block;
-    width: 136px;
+    display: flex;
+    align-items: center;
     height: 80px;
     margin: 0 0 0 15px;
 }
