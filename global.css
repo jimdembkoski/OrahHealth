@@ -94,14 +94,9 @@ html, body {
 }
 
 #logo a {
-    display: block;
-    width: inherit;
-    height: inherit;
-    background-image: url(../assets/logo.png);
-    background-repeat: no-repeat;
-    background-position: top left;
-    text-indent: -99999px;
-    background-size: 136px 160px;
+  display: inline-block;
+  background: none;
+  text-indent: 0;
 }
 
 #logo a span {
