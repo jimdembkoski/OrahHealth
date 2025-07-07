@@ -150,20 +150,14 @@ html, body {
     background-size: 800px 28px;
 }
 
-#navigation li a.design {
+#navigation li a.our-work {
     background-position: 10px 51px;
 }
-
-#navigation li a.music {
+#navigation li a.about-us {
     background-position: -190px 51px;
 }
-
-#navigation li a.dossier {
-    background-position: -390px 51px;
-}
-
 #navigation li a.contact {
-    background-position: -590px 51px;
+    background-position: -390px 51px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
