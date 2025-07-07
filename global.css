@@ -114,7 +114,7 @@ html, body {
 #navigation li a {
   display: inline-block;
   padding: 20px 20px;
-  font-family: "DIN-Medium", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
   font-size: 18px;
   color: #333;
   text-decoration: none;
@@ -122,13 +122,12 @@ html, body {
   background: none;
   background-image: none;
 
-  /* Fix word splitting */
+  /* FORCE text wrapping behavior */
   white-space: nowrap !important;
   hyphens: none !important;
   overflow-wrap: normal !important;
-  word-break: normal !important;
+  word-break: keep-all !important;
 }
-
 
 /* Content */
 #content {
