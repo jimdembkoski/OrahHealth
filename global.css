@@ -99,16 +99,6 @@ html, body {
   text-indent: 0;
 }
 
-#logo a span {
-    display: block;
-    width: inherit;
-    height: inherit;
-    background-image: url(../assets/logo.png) background-repeat: no-repeat;
-    background-position: 0px -80px;
-    opacity: 0;
-    background-size: 136px 160px;
-}
-
 #navigation {
     float: left;
     display: block;
